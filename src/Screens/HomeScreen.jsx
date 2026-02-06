@@ -19,21 +19,21 @@ function Homescreen() {
         <Accordion.Item eventKey="1">
             <Accordion.Header>Project #2</Accordion.Header>
             <Accordion.Body>
-                Project Description
+                <Project />
             </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="2">
             <Accordion.Header>Project #3</Accordion.Header>
             <Accordion.Body>
-                Project Description
+                <Project />
             </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="3">
             <Accordion.Header>Project #4</Accordion.Header>
             <Accordion.Body>
-                Project Description
+                <Project />
             </Accordion.Body>
         </Accordion.Item>
     </Accordion>

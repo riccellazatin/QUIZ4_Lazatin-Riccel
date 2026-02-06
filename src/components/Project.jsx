@@ -1,17 +1,14 @@
 import React from 'react'
 import {Card} from 'react-bootstrap'
 
-function Project({ project }) {
+function Project() {
   return (
     <>
-    <Card className='my-3 p-3 rounded border-1'>
-        <Card.Body>
-                <Card.Title as="div">
-                    <strong>Project Name</strong>
-                </Card.Title>
-
-        </Card.Body>
-    </Card>
+    <div>
+        <p>Project Description</p>
+        <p>Date Started:</p><br />
+        <p>Date Ended:</p><br />
+    </div>
     </>
   );
 }
