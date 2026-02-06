@@ -1,40 +1,19 @@
-import React, {useState} from 'react'
-import Accordion from 'react-bootstrap/Accordion'
+import React from 'react'
+import {Card} from 'react-bootstrap'
 
-function Project() {
+function Project({ project }) {
   return (
     <>
-    <Accordion defaultActiveKey="0">
-        <Accordion.Item eventKey="0">
-            <Accordion.Header>Project #1</Accordion.Header>
-            <Accordion.Body>
-                description
-            </Accordion.Body>
-        </Accordion.Item>
+    <Card className='my-3 p-3 rounded border-1'>
+        <Card.Body>
+                <Card.Title as="div">
+                    <strong>Project Name</strong>
+                </Card.Title>
 
-        <Accordion.Item eventKey="1">
-            <Accordion.Header>Project #2</Accordion.Header>
-            <Accordion.Body>
-                Project Description
-            </Accordion.Body>
-        </Accordion.Item>
-
-        <Accordion.Item eventKey="2">
-            <Accordion.Header>Project #3</Accordion.Header>
-            <Accordion.Body>
-                Project Description
-            </Accordion.Body>
-        </Accordion.Item>
-
-        <Accordion.Item eventKey="3">
-            <Accordion.Header>Project #4</Accordion.Header>
-            <Accordion.Body>
-                Project Description
-            </Accordion.Body>
-        </Accordion.Item>
-    </Accordion>
+        </Card.Body>
+    </Card>
     </>
-  )
+  );
 }
 
-export default Project;
+export default Project
